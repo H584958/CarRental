@@ -3,7 +3,7 @@ package dataModels;
 public class Customer {
 	private String firstName;
 	private String lastName;
-	private Adress adress;
+	private Address address;
 	private int phoneNumber;
 	private Reservation reservation;
 	
@@ -15,11 +15,11 @@ public class Customer {
 		
 	}
 	
-	public Customer(String firstName, String lastName, Adress adress, int phoneNumber, Reservation reservation) {
+	public Customer(String firstName, String lastName, Address address, int phoneNumber, Reservation reservation) {
 		super();
 		this.firstName = firstName;
 		this.lastName = lastName;
-		this.adress = adress;
+		this.address = address;
 		this.phoneNumber = phoneNumber;
 		this.reservation = reservation;
 	}
@@ -36,11 +36,11 @@ public class Customer {
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
-	public Adress getAdress() {
-		return adress;
+	public Address getAddress() {
+		return address;
 	}
-	public void setAdress(Adress adress) {
-		this.adress = adress;
+	public void setAddress(Address address) {
+		this.address = address;
 	}
 	public int getPhoneNumber() {
 		return phoneNumber;
