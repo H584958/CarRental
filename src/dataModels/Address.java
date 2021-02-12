@@ -1,5 +1,5 @@
 package dataModels;
 
-public class Adress {
+public class Address {
 
 }
