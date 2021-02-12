@@ -1,17 +1,17 @@
 package dataModels;
 
-public class Adress {
+public class Address {
 
 	private String streetAddress;
 	private int postalCode;
 	private String postPlace;
 	
 	
-	public Adress() {
+	public Address() {
 		
 	}
 	
-	public Adress(String streetAddress, int postalCode, String postPlace) {
+	public Address(String streetAddress, int postalCode, String postPlace) {
 		this.streetAddress = streetAddress;
 		this.postalCode = postalCode;
 		this.postPlace = postPlace;
