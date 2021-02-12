@@ -1,16 +1,14 @@
-package dataModels;
-
 public class Address {
 
 	private String streetAddress;
 	private int postalCode;
 	private String postPlace;
-	
-	
+
+
 	public Address() {
-		
+
 	}
-	
+
 	public Address(String streetAddress, int postalCode, String postPlace) {
 		this.streetAddress = streetAddress;
 		this.postalCode = postalCode;
@@ -34,7 +32,7 @@ public class Address {
 	public void setPostPlace(String postPlace) {
 		this.postPlace = postPlace;
 	}
-	
-	
-	
+
+
+
 }
